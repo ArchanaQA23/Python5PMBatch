@@ -9,6 +9,7 @@ def launch_url(context):
     context.driver=webdriver.Chrome(ChromeDriverManager().install())
     context.driver.get("https://www.google.com")
     context.driver.maximize_window()
+    context.driver.implicitlyWait(10);
 
 
 
