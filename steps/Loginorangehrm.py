@@ -16,6 +16,7 @@ def login_cred(context,user,pwd):
     context.driver.find_element(By.NAME,"username").send_keys(user)
     context.driver.find_element(By.NAME,"password").send_keys(pwd)
     print("carrt changes added by naveen")
+print("another change done by naveen and sarath , merged in master")
 
 
 @when(u'User clicks on login button')
