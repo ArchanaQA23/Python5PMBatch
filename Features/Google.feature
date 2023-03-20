@@ -1,6 +1,6 @@
 
 Feature: Check the gmail link
-  Scenario: Checking the gmail link clicking functionality for google checking 
+  Scenario: Checking the gmail link functionality
 
     Given User launches the url
     When User check the title
