@@ -21,6 +21,7 @@ def login_cred(context,user,pwd):
 def click_login(context):
     context.driver.find_element(By.XPATH,"//button[@type='submit']").click()
     time.sleep(5)
+    print("User is clicking on login functionality ")
 
 
 @then(u'user should successfully login  to the dashboard page')
