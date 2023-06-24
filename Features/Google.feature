@@ -6,3 +6,4 @@ Feature: Check the gmail link
     When User check the title
     And User click on Gmail link
     Then User should see the gmail page
+    Then User should be connected
