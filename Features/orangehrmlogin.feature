@@ -8,7 +8,7 @@ Background:
     When User enter the username "Admin" and password "admin123"
     And User clicks on login button
     Then user should successfully login  to the dashboard page
-    Then User should be happy
+    Then User should be happy and delighted
 
 
 
